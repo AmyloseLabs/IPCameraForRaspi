@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "CMake",
+            // "includePath": [
+            //     "${workspaceFolder}/**"
+            //     ""
+            // ],
+            "compileCommands": "${config:cmake.buildDirectory}/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools", //!< Windows option
+            // "configurationProvider": "ms-vscode.cpptools", //!< Linux option
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
